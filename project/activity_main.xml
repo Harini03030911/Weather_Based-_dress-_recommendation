@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"> <!-- Black Background -->
+
+    <EditText
+        android:id="@+id/et_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Place"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" /> <!-- Black text -->
+
+    <EditText
+        android:id="@+id/et_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Gender"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" /> <!-- Black text -->
+
+    <EditText
+        android:id="@+id/et_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Temperature"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" /> <!-- Black text -->
+
+    <EditText
+        android:id="@+id/et_weather_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weather Condition"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" /> <!-- Black text -->
+
+    <Button
+        android:id="@+id/btn_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Recommendation"
+        android:background="#008080"
+    android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tv_recommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommendation: "
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>
